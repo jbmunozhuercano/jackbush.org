@@ -1,2 +1,9 @@
 /.env
 /node_modules
+/app-built
+/app/static/coffeescript/*.js
+/app/static/coffeescript/**/*.js
+/app/static/coffeescript/*.map
+/app/static/coffeescript/**/*.map
+/app/static/stylus/*.css
+/app/static/stylus/**/*.css
