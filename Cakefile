@@ -58,3 +58,7 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
 task 'watch', "compile the #{pkgmeta.name} static assets as they change", ->
   spawn "#{NODE_BIN_DIR}coffee", ['--watch', '--compile', '--map', './app/static/coffeescript/']
   spawn 'bundle', ['exec', 'sass', '--watch', './app/static/sass/']
+
+
+task 'runserver', 'run the development server', ->
+  spawn 'php', ['-S', '0.0.0.0:5000', '-t', 'app']

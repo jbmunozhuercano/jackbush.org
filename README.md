@@ -19,3 +19,14 @@ Then install the Ruby dependencies by running the following command:
 You can then build the site by running:
 
     cake build
+
+
+Development
+===========
+
+After installing the node and Ruby dependencies, you can develop by running the
+following command:
+
+    cake runserver
+
+The site will then be accessible at <http://localhost:5000/>.
