@@ -1,0 +1,20 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,800')
+@import url('//fonts.googleapis.com/css?family=Montserrat:700')
+
+
+@mixin open-sans()
+  font-family: 'Open Sans', sans-serif
+
+@mixin montserrat()
+  font-family: 'Montserrat', sans-serif
+
+
+body
+  @include open-sans
+  // background-image linear-gradient(top left, white, red)
+
+
+h1
+  @include montserrat
+  font-weight: 700
+  text-transform: uppercase

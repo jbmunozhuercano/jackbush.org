@@ -33,8 +33,8 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
   console.log 'Compiling CoffeeScript files...'
   exec "#{NODE_BIN_DIR}coffee", ['-c', '--map', staticDir]
 
-  console.log 'Compiling Stylus files...'
-  exec "#{NODE_BIN_DIR}stylus", ['--use', 'nib', staticDir]
+  console.log 'Compiling Sass files...'
+  exec 'bundle', ['exec', 'sass', '--update', staticDir]
 
   console.log 'Optimizing AMD modules...'
   exec "#{NODE_BIN_DIR}r.js", ['-o', 'jackbush.build.js']
@@ -57,4 +57,4 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
 
 task 'watch', "compile the #{pkgmeta.name} static assets as they change", ->
   spawn "#{NODE_BIN_DIR}coffee", ['--watch', '--compile', '--map', './app/static/coffeescript/']
-  spawn "#{NODE_BIN_DIR}stylus", ['--use', 'nib', '--watch', './app/static/stylus/']
+  spawn 'bundle', ['exec', 'sass', '--watch', './app/static/sass/']
