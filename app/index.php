@@ -15,7 +15,7 @@
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-		<link rel="stylesheet" href="static/sass/site.css" />
+		<link rel="stylesheet" href="static/sass/site.css" media="screen, projection" type="text/css" />
 		<script src="/static/js/Modernizr.js" type="text/javascript"></script>
 		<script src="/static/js/require.js" type="text/javascript"></script>
 		<script src="/static/coffeescript/jackbush/main-conf.js" type="text/javascript"></script>
@@ -28,10 +28,23 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 
+		<div class="container">
+			<header>
+				<h1>Jack Bush Paintings</h1>
+				<h2>A Catalogue Raisonné</h2>
+				<div class="lead">
+					<p>
+						Work has now begun on the compilation of a comprehensive record
+						of paintings produced by the Canadian artist Jack Bush (1909 –
+						1977).  With the support of the Estate of Jack Bush, the
+						catalogue raisonné will document no fewer than 1,600 works of
+						art in full colour.
+					</p>
+				</div>
+			</header>
 
-		<h1>Jack Bush Paintings: A Catalogue Raisonné</h1>
 
-		<?= Markdown(file_get_contents('content.md')); ?>
+			<?= Markdown(file_get_contents('content.md')); ?>
 
 <?php
 /*
@@ -44,5 +57,7 @@
 		</script>
 */
 ?>
+
+		</div>
 	</body>
 </html>

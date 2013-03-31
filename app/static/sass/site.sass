@@ -1,20 +1,51 @@
-@import url('//fonts.googleapis.com/css?family=Open+Sans:400,800')
-@import url('//fonts.googleapis.com/css?family=Montserrat:700')
+@import url('//fonts.googleapis.com/css?family=Lato:300,300italic|Montserrat:700')
+@import 'compass'
+@import 'compass/reset'
+
+$base-font-size: 16px
+$base-line-height: 24px
+// $round-to-nearest-half-line: true
+@include establish-baseline
 
 
-@mixin open-sans()
-  font-family: 'Open Sans', sans-serif
+@mixin lato()
+  font-family: 'Lato', Helvetica, Arial, sans-serif
 
 @mixin montserrat()
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif
 
 
 body
-  @include open-sans
+  @include lato
+  font-weight: 300
   background-image: linear-gradient(148deg, #f2f2f2, #eaeaea 400px)
+  color: #222244
+  // @include debug-vertical-alignment
 
-
-h1
+h1, h2, h3, h4
   @include montserrat
   font-weight: 700
   text-transform: uppercase
+  @include adjust-font-size-to(40px)
+
+p
+  max-width: 60em
+
+header
+  h1, h2
+    @include adjust-font-size-to(64px)
+
+  .lead
+    @include leader
+    @include trailer
+    @include lato
+    font-style: italic
+    @include adjust-font-size-to(24px, 3/2)
+    font-weight: 300
+
+.container
+  margin-left: 10px
+
+  p
+    @include leader(1/2)
+    @include trailer(1/2)

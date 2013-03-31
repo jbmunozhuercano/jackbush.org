@@ -1,9 +1,3 @@
-Jack Bush Paintings: A Catalogue Raisonné [I’d prefer to have the title with logo as seen on letterhead here, to lead in]
-
-Work has now begun on the compilation of a comprehensive record of paintings
-produced by the Canadian artist Jack Bush (1909 – 1977).  With the support of
-the Estate of Jack Bush, the catalogue raisonné will document no fewer than
-1,600 works of art in full colour.
 
 If you are in possession of a painting known to be by Jack Bush please contact
 Dr. Sarah Stanners for more information and download the catalogue raisonné
