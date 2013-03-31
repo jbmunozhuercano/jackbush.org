@@ -36,9 +36,9 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
   console.log 'Compiling Sass files...'
   exec 'bundle', ['exec', 'compass', 'compile',
     '--trace'
-    '--sass-dir', "#{APP_BUILT_DIR}static/sass/"
-    '--css-dir', "#{APP_BUILT_DIR}static/sass/"
-    '--images-dir', "#{APP_BUILT_DIR}static/images/"
+    '--sass-dir', "#{staticDir}sass/"
+    '--css-dir', "#{staticDir}sass/"
+    '--images-dir', "#{staticDir}images/"
     '--force'
   ]
 
@@ -62,12 +62,13 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
 
 
 task 'watch', "compile the #{pkgmeta.name} static assets as they change", ->
-  spawn "#{NODE_BIN_DIR}coffee", ['--watch', '--compile', '--map', './app/static/coffeescript/']
+  staticDir = "#{APP_DIR}static/"
+  spawn "#{NODE_BIN_DIR}coffee", ['--watch', '--compile', '--map', "#{staticDir}coffeescript/"]
   spawn 'bundle', ['exec', 'compass', 'watch',
     '--require', 'compass',
-    '--sass-dir', "#{APP_DIR}static/sass/"
-    '--css-dir', "#{APP_DIR}static/sass/"
-    '--images-dir', "#{APP_DIR}static/images/"
+    '--sass-dir', "#{staticDir}sass/"
+    '--css-dir', "#{staticDir}sass/"
+    '--images-dir', "#{staticDir}images/"
   ]
 
 
