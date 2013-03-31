@@ -34,7 +34,13 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
   exec "#{NODE_BIN_DIR}coffee", ['-c', '--map', staticDir]
 
   console.log 'Compiling Sass files...'
-  exec 'bundle', ['exec', 'sass', '--update', staticDir]
+  exec 'bundle', ['exec', 'compass', 'compile',
+    '--trace'
+    '--sass-dir', "#{APP_BUILT_DIR}static/sass/"
+    '--css-dir', "#{APP_BUILT_DIR}static/sass/"
+    '--images-dir', "#{APP_BUILT_DIR}static/images/"
+    '--force'
+  ]
 
   console.log 'Optimizing AMD modules...'
   exec "#{NODE_BIN_DIR}r.js", ['-o', 'jackbush.build.js']
@@ -57,7 +63,12 @@ task 'build', "build the #{pkgmeta.name} static assets", (opts) ->
 
 task 'watch', "compile the #{pkgmeta.name} static assets as they change", ->
   spawn "#{NODE_BIN_DIR}coffee", ['--watch', '--compile', '--map', './app/static/coffeescript/']
-  spawn 'bundle', ['exec', 'sass', '--watch', './app/static/sass/']
+  spawn 'bundle', ['exec', 'compass', 'watch',
+    '--require', 'compass',
+    '--sass-dir', "#{APP_DIR}static/sass/"
+    '--css-dir', "#{APP_DIR}static/sass/"
+    '--images-dir', "#{APP_DIR}static/images/"
+  ]
 
 
 task 'runserver', 'run the development server', ->
