@@ -3,6 +3,7 @@ require.config
   waitSeconds: 200
   paths:
     jquery: '../js/jquery'
+    'scrollMonitor': '../js/scrollMonitor'
 
   shim:
     jquery:

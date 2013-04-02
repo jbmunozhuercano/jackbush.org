@@ -1,11 +1,20 @@
 @import url('//fonts.googleapis.com/css?family=Lato:300,300italic|Montserrat:700')
 @import 'compass'
 @import 'compass/reset'
+@import 'compass/css3/images'
+@import "compass/css3/box-sizing"
+
 
 $base-font-size: 16px
 $base-line-height: 24px
-// $round-to-nearest-half-line: true
 @include establish-baseline
+
+
+// Site-specific variables.
+$orange: #df5920
+$margin-top: 204px
+$tablet: 'screen and (min-width: 765px) and (max-width: 900px)'
+$mobile: 'screen and (max-width: 765px)'
 
 
 @mixin lato()
@@ -15,12 +24,23 @@ $base-line-height: 24px
   font-family: 'Montserrat', Helvetica, Arial, sans-serif
 
 
+*
+  @include box-sizing(border-box)
+
+html
+  @include background-image(linear-gradient(left, $orange, darken($orange, 10%) 10px))
+  background-repeat: repeat-y
+  background-size: 10px 100%
+
 body
+  margin-left: 10px
   @include lato
   font-weight: 300
-  background-image: linear-gradient(148deg, #f2f2f2, #eaeaea 400px)
+  @include background-image(linear-gradient(148deg, #dedede, #ffffff 400px))
+  background-attachment: fixed
   color: #222244
   // @include debug-vertical-alignment
+  -webkit-overflow-scrolling: touch
 
 h1, h2, h3, h4
   @include montserrat
@@ -44,8 +64,62 @@ header
     font-weight: 300
 
 .container
-  margin-left: 10px
+  overflow: hidden
 
   p
     @include leader(1/2)
     @include trailer(1/2)
+
+  > .content
+    margin-left: 350px
+    margin-top: 204px
+    margin-right: 2em
+    margin-bottom: 5em
+
+  .content-body
+    h2, h3, h4, h5, h6
+      @include leader
+
+#slide-pink-with-border
+  position: absolute
+  top: $margin-top - 54px
+  left: 50px
+
+  &.sticky
+    position: fixed
+    top: 50px
+
+
+@media #{$tablet}
+
+  #slide-pink-with-border
+    width: 200px
+
+  .container > .content
+    margin-left: 250px
+
+
+@media #{$mobile}
+
+  #slide-pink-with-border,
+  #slide-pink-with-border.sticky
+    position: static
+    display: block
+    margin: 0 auto
+    width: 100%
+    margin-left: 10px
+
+  header
+    h1, h2
+      @include adjust-font-size-to(32px, 3/2)
+
+    .lead
+      @include adjust-font-size-to(20px)
+
+  h1, h2, h3, h4
+    @include adjust-font-size-to(24px, 1)
+
+  .container
+    > .content
+      @include leader
+      margin-left: 2em
