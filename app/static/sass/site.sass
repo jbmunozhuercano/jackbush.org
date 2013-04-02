@@ -14,7 +14,6 @@ $base-line-height: 24px
 $orange: #df5920
 $margin-top: 204px
 $slide-offset: 54px
-$tablet: 'screen and (min-width: 765px) and (max-width: 900px)'
 $mobile: 'screen and (max-width: 765px)'
 
 
@@ -72,10 +71,8 @@ header
     @include trailer(1/2)
 
   > .content
-    margin-left: 350px
-    margin-top: 204px
-    margin-right: 2em
-    margin-bottom: 5em
+    margin: 204px 2em 5em 26%
+    padding-left: 50px
 
   .content-body
     h2, h3, h4, h5, h6
@@ -85,20 +82,11 @@ header
   position: absolute
   top: $margin-top - $slide-offset
   left: 50px
+  width: 26%
 
   &.sticky
     position: fixed
     top: 50px
-
-
-@media #{$tablet}
-
-  #slide-pink-with-border
-    width: 200px
-    top: $margin-top - 2/3 * $slide-offset
-
-  .container > .content
-    margin-left: 250px
 
 
 @media #{$mobile}
