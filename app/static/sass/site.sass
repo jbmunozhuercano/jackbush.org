@@ -13,6 +13,7 @@ $base-line-height: 24px
 // Site-specific variables.
 $orange: #df5920
 $margin-top: 204px
+$slide-offset: 54px
 $tablet: 'screen and (min-width: 765px) and (max-width: 900px)'
 $mobile: 'screen and (max-width: 765px)'
 
@@ -82,7 +83,7 @@ header
 
 #slide-pink-with-border
   position: absolute
-  top: $margin-top - 54px
+  top: $margin-top - $slide-offset
   left: 50px
 
   &.sticky
@@ -94,6 +95,7 @@ header
 
   #slide-pink-with-border
     width: 200px
+    top: $margin-top - 2/3 * $slide-offset
 
   .container > .content
     margin-left: 250px
