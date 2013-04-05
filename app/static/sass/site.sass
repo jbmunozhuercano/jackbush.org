@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Lato:300,300italic|Montserrat:700')
+@import url('//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic|Montserrat:700')
 @import 'compass'
 @import 'compass/reset'
 @import 'compass/css3/images'
@@ -44,14 +44,41 @@ body
   color: $text-color
   // @include debug-vertical-alignment
 
-h1, h2, h3, h4
+h1, h2, h3, h4, h5, h6
   @include montserrat
   font-weight: 700
-  text-transform: uppercase
   @include adjust-font-size-to(40px)
+
+h1, h2, h3, h4
+  text-transform: uppercase
+
+h3
+  @include adjust-font-size-to(35px)
+
+h4
+  @include adjust-font-size-to(30px)
+
+h5
+  @include adjust-font-size-to(25px)
+
+h6
+  @include adjust-font-size-to(20px)
 
 p
   max-width: 60em
+
+strong, b
+  font-weight: 400
+
+em, i
+  font-style: italic
+
+hr
+  height: 1px
+  @include leader(2)
+  @include trailer(2)
+  background-color: $blue
+  border: none
 
 header
   h1, h2
@@ -64,6 +91,9 @@ header
     font-style: italic
     @include adjust-font-size-to(24px, 3/2)
     font-weight: 300
+
+    em, i
+      font-style: normal
 
 .container
   overflow: hidden
