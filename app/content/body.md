@@ -4,10 +4,6 @@ Dr. Sarah Stanners][1] for more information and download the catalogue raisonné
 submission form by clicking [here][1].
 
 
-[1]: mailto:stanners@jackbush.org
-[2]: /static/docs/JBCR_Submission_Form.pdf
-
-
 Jack Bush Project Announcements
 -------------------------------
 
@@ -46,4 +42,11 @@ Donations
 
 The Jack Bush Catalogue Raisonné is a not-for-profit scholarly project, which is
 currently accepting donations via its institutional affiliate, the University of
-Toronto, Department of Art.  Download a pledge form by clicking here.
+Toronto, Department of Art.  Download a pledge form by clicking [here][3].
+
+
+
+
+[1]: mailto:stanners@jackbush.org
+[2]: /static/docs/JBCR_Submission_Form.pdf
+[3]: /static/docs/JBCR_Pledge_Form.doc
