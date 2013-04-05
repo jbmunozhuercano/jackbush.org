@@ -1,7 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic|Montserrat:700')
 @import 'compass'
 @import 'compass/reset'
-
+@import '../fancybox/jquery.fancybox'
 
 $base-font-size: 16px
 $base-line-height: 24px
@@ -120,6 +120,8 @@ header
     position: fixed
     top: 50px
 
+  > img
+    width: 100%
 
 @media #{$mobile}
 
@@ -174,3 +176,20 @@ blockquote
   @include trailer
   border-left: 2px solid $blue
   padding-left: 2em
+
+
+// Override some fancybox paths. We do this here (instead of in the fancybox
+// CSS) so that we can just pull in new versions of the fancybox CSS when it's
+// updated without having to worry about recreating our changes.
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span
+  background-image: url('/static/fancybox/fancybox_sprite.png')
+
+#fancybox-loading div
+  background-image: url('/static/fancybox/fancybox_loading.gif')
+
+.fancybox-nav
+  background-image: url('/static/fancybox/blank.gif')
+
+.fancybox-overlay
+  background-image: url('/static/fancybox/fancybox_overlay.png')
