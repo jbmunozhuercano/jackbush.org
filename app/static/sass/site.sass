@@ -15,6 +15,7 @@ $orange: #df5920
 $margin-top: 204px
 $slide-offset: 54px
 $mobile: 'screen and (max-width: 765px)'
+$slide-size: 26%
 
 
 @mixin lato()
@@ -70,7 +71,7 @@ header
     @include trailer(1/2)
 
   > .content
-    margin: 204px 2em 5em 26%
+    margin: 204px 2em 5em $slide-size
     padding-left: 50px
 
   .content-body
@@ -81,7 +82,7 @@ header
   position: absolute
   top: $margin-top - $slide-offset
   left: 50px
-  width: 26%
+  width: $slide-size
 
   &.sticky
     position: fixed
@@ -112,3 +113,4 @@ header
     > .content
       @include leader
       margin-left: 2em
+      padding-left: 0
