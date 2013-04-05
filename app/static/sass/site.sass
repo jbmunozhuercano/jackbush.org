@@ -47,10 +47,12 @@ body
 h1, h2, h3, h4, h5, h6
   @include montserrat
   font-weight: 700
-  @include adjust-font-size-to(40px)
 
 h1, h2, h3, h4
   text-transform: uppercase
+
+h1, h2
+  @include adjust-font-size-to(40px)
 
 h3
   @include adjust-font-size-to(35px)
