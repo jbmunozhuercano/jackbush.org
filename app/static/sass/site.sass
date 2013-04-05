@@ -12,6 +12,8 @@ $base-line-height: 24px
 
 // Site-specific variables.
 $orange: #df5920
+$blue: #4e97c2
+$text-color: #222244
 $margin-top: 204px
 $slide-offset: 54px
 $mobile: 'screen and (max-width: 765px)'
@@ -39,7 +41,7 @@ body
   font-weight: 300
   @include background-image(linear-gradient(148deg, #dedede, #ffffff 400px))
   background-attachment: fixed
-  color: #222244
+  color: $text-color
   // @include debug-vertical-alignment
 
 h1, h2, h3, h4
@@ -114,3 +116,28 @@ header
       @include leader
       margin-left: 2em
       padding-left: 0
+
+a
+  @include link-colors($blue)
+
+ul
+  padding-left: 2em
+
+  li
+    padding-left: 0.75em
+    background: url('/static/images/bullet.svg') 0 0.6em no-repeat
+
+ol
+  list-style-type: decimal
+  list-style-position: inside
+  padding-left: 3em
+  text-indent: -1em
+
+li
+  @include trailer(1/3)
+
+blockquote
+  @include leader
+  @include trailer
+  border-left: 2px solid $blue
+  padding-left: 2em
