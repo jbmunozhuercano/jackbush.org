@@ -1,7 +1,7 @@
 
 If you are in possession of a painting known to be by Jack Bush please [contact
 Dr. Sarah Stanners][1] for more information and download the catalogue raisonné
-submission form by clicking [here][1].
+submission form by clicking [here][2].
 
 
 Jack Bush Project Announcements
