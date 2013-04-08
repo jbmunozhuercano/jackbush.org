@@ -3,7 +3,6 @@ require.config
   waitSeconds: 200
   paths:
     jquery: '../js/jquery'
-    'scrollMonitor': '../js/scrollMonitor'
     'jquery.fancybox': '../fancybox/jquery.fancybox'
     'jquery.scrollTo': '../js/jquery.scrollTo'
 

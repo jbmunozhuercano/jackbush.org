@@ -1,7 +1,6 @@
 define (require) ->
 
   $ = require 'jquery'
-  scrollMonitor = require 'scrollMonitor'
   require 'jquery.fancybox'
   require 'jquery.scrollTo'
 
@@ -19,20 +18,38 @@ define (require) ->
     else
       false
 
+
+  class StickySlide
+    constructor: ->
+      @isSticky = false
+      @$slide = $ '#slide-pink-with-border'
+      @$slideLink = @$slide.find 'a'
+      @$mainHeading = $ '#main-header h1'
+      @getStickyPoint()
+      @$win = $ window
+      @$win.resize =>
+        @getStickyPoint()
+        @checkStickiness()
+      @$win.scroll @checkStickiness
+
+    getStickyPoint: =>
+      # Calculate sticky point. Percentage offest must match value in CSS
+      slideTop = @$mainHeading.offset().top - 0.18 * @$slideLink.height()
+      @stickyPoint = slideTop - 50
+      console.log slideTop
+
+    checkStickiness: =>
+      isBelowStickyPoint = @$win.scrollTop() >= @stickyPoint
+      if isBelowStickyPoint != @isSticky
+        if isBelowStickyPoint
+          @$slide.addClass 'sticky'
+        else
+          @$slide.removeClass 'sticky'
+        @isSticky = isBelowStickyPoint
+
+
   if not isSmallScreen
     $(document).ready ->
 
-      $slide = $ '#slide-pink-with-border'
-
-      # Make the slide "sticky"
-      watcher = scrollMonitor.create $slide[0], top: 50
-      watcher.lock()
-      watcher.partiallyExitViewport ->
-        # @isAboveViewport may be undefined on the first call, so compare to false
-        if @isAboveViewport != false
-          $slide.addClass 'sticky'
-      watcher.fullyEnterViewport ->
-        $slide.removeClass 'sticky'
-
-       # Add the fancybox
-      $slide.fancybox()
+      stickySlide = new StickySlide
+      $('#slide-pink-with-border a').fancybox()

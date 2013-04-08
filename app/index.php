@@ -26,7 +26,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<header>
+				<header id="main-header">
 					<div class="logo">
 						<a href="#">
 							<img src="/static/images/logo.png" width="32" height="39" alt="" />
