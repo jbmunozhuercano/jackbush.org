@@ -3,6 +3,11 @@ define (require) ->
   $ = require 'jquery'
   scrollMonitor = require 'scrollMonitor'
   require 'jquery.fancybox'
+  require 'jquery.scrollTo'
+
+  $('.logo > a').click (event) ->
+    event.preventDefault()
+    $.scrollTo 0, 300
 
   # Determine whether we're dealing with a small screen device.
   maxSmallScreenWidth = 4  # The largest number of inches that is still considered a small screen

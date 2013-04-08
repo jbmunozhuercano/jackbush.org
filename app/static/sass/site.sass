@@ -1,6 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic|Montserrat:700')
 @import 'compass'
 @import 'compass/reset'
+@import '_mixins'
 @import '../fancybox/jquery.fancybox'
 
 $base-font-size: 16px
@@ -81,6 +82,28 @@ hr
   border: none
 
 header
+
+  .logo
+    position: fixed
+    top: 0
+    right: 30px
+    width: 94px
+    height: 140px
+    background: url('/static/images/bookmark.png') 0 0 no-repeat
+    @include image-2x('/static/images/bookmark@2x.png', 94px, 140px)
+
+    a
+      position: absolute
+      top: 0
+      left: 14px
+      width: 60px
+      height: 120px
+
+    img
+      position: absolute
+      bottom: 13px
+      left: 14px
+
   h1, h2
     @include adjust-font-size-to(64px)
 

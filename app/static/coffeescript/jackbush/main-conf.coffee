@@ -5,10 +5,14 @@ require.config
     jquery: '../js/jquery'
     'scrollMonitor': '../js/scrollMonitor'
     'jquery.fancybox': '../fancybox/jquery.fancybox'
+    'jquery.scrollTo': '../js/jquery.scrollTo'
 
   shim:
     jquery:
       exports: 'jQuery'
 
     'jquery.fancybox':
+      deps: ['jquery']
+
+    'jquery.scrollTo':
       deps: ['jquery']

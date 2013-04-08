@@ -30,6 +30,11 @@
 		<div class="container">
 			<div class="content">
 				<header>
+					<div class="logo">
+						<a href="#">
+							<img src="/static/images/logo.png" width="32" height="39" alt="" />
+						</a>
+					</div>
 					<h1>Jack Bush Paintings</h1>
 					<h2>A Catalogue Raisonné</h2>
 					<div class="lead">

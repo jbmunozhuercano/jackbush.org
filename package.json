@@ -31,7 +31,8 @@
       "jquery": "github:jquery/jquery/1.9.1",
       "Modernizr": "github:Modernizr/Modernizr/v2.6.2",
       "require": "github:jrburke/requirejs/2.1.5",
-      "scrollMonitor": "github:sakabako/scrollMonitor/bcd902507140d6e1dd3469c92dc99b60ad7ccc7c#scrollMonitor.js"
+      "scrollMonitor": "github:sakabako/scrollMonitor/bcd902507140d6e1dd3469c92dc99b60ad7ccc7c#scrollMonitor.js",
+      "jquery.scrollTo": "github:flesler/jquery.scrollTo/1f80d6bf71cd376d2199beb9a0ecbbf77174cb81#jquery.scrollTo.js"
     }
   }
 }
