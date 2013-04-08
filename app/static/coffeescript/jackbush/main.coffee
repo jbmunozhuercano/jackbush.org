@@ -4,9 +4,6 @@ define (require) ->
   require 'jquery.fancybox'
   require 'jquery.scrollTo'
 
-  $('.logo > a').click (event) ->
-    event.preventDefault()
-    $.scrollTo 0, 300
 
   # Determine whether we're dealing with a small screen device.
   maxSmallScreenWidth = 4  # The largest number of inches that is still considered a small screen
@@ -48,8 +45,13 @@ define (require) ->
         @isSticky = isBelowStickyPoint
 
 
-  if not isSmallScreen
-    $(document).ready ->
+  $(document).ready ->
 
+    # Smooth-scroll to top when the user clicks the bookmark.
+    $('.logo > a').click (event) ->
+      event.preventDefault()
+      $.scrollTo 0, 300
+
+    if not isSmallScreen
       stickySlide = new StickySlide
       $('#slide-pink-with-border a').fancybox()
