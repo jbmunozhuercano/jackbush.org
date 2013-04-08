@@ -37,12 +37,13 @@
 					<div class="lead">
 						<?= Markdown(file_get_contents('content/lead.md')); ?>
 					</div>
-					<a
-						id="slide-pink-with-border"
-						href="/static/images/pink_with_border_full.jpg"
-						data-fancybox-title="Jack Bush (1909 &ndash; 1977) standing in front of his painting,<br />&ldquo;Pink with Border&rdquo; (1967), acryllic on canvas, 81&times;108 inches, Private Collection">
-							<img src="/static/images/pink_with_border.png" width="300" alt="Jack Bush standing in front of his painting &ldquo;Pink With Border&rdquo; (1967)" />
-					</a>
+					<div id="slide-pink-with-border">
+						<a
+							href="/static/images/pink_with_border_full.jpg"
+							data-fancybox-title="Jack Bush (1909 &ndash; 1977) standing in front of his painting,<br />&ldquo;Pink with Border&rdquo; (1967), acryllic on canvas, 81&times;108 inches, Private Collection">
+								<img src="/static/images/pink_with_border.png" width="300" alt="Jack Bush standing in front of his painting &ldquo;Pink With Border&rdquo; (1967)" />
+						</a>
+					</div>
 				</header>
 
 				<div class="content-body">

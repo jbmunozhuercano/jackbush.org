@@ -135,7 +135,7 @@ header
 
 #slide-pink-with-border
   position: absolute
-  top: $margin-top - $slide-offset
+  top: $margin-top
   left: 50px
   width: $slide-size
 
@@ -143,7 +143,11 @@ header
     position: fixed
     top: 50px
 
-  > img
+  a
+    position: absolute
+    margin-top: -18%
+
+  img
     width: 100%
 
 @media #{$mobile}
@@ -155,6 +159,10 @@ header
     margin: 0 auto
     width: 100%
     margin-left: 10px
+
+    a
+      position: relative
+      margin-top: 0
 
   header
     h1, h2
