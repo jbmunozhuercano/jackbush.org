@@ -104,8 +104,11 @@ header
       bottom: 13px
       left: 14px
 
-  h1, h2
+  h1
     @include adjust-font-size-to(64px)
+
+  h2
+    @include adjust-font-size-to(50px)
 
   .lead
     @include leader
@@ -168,8 +171,11 @@ header
       margin-top: 0
 
   header
-    h1, h2
+    h1
       @include adjust-font-size-to(32px, 3/2)
+
+    h2
+      @include adjust-font-size-to(24px, 3/2)
 
     .lead
       @include adjust-font-size-to(20px)
