@@ -33,7 +33,6 @@ define (require) ->
       # Calculate sticky point. Percentage offest must match value in CSS
       slideTop = @$mainHeading.offset().top - 0.18 * @$slideLink.height()
       @stickyPoint = slideTop - 50
-      console.log slideTop
 
     checkStickiness: =>
       isBelowStickyPoint = @$win.scrollTop() >= @stickyPoint
