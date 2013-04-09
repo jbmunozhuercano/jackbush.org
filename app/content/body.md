@@ -48,5 +48,5 @@ Toronto, Department of Art.  Download a pledge form by clicking [here][3].
 
 
 [1]: mailto:stanners@jackbush.org
-[2]: /static/docs/JBCR_Submission_Form.pdf
-[3]: /static/docs/JBCR_Pledge_Form.doc
+[2]: /media/forms/JBCR_Submission_Form.pdf
+[3]: /media/forms/JBCR_Pledge_Form.doc
