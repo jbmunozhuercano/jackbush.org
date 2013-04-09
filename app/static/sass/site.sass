@@ -174,24 +174,28 @@ header
     .logo
       right: 0
       width: 62px
-      height: 94px
-      background-size: 62px 94px
+      height: 75px
+      background-size: 62px 75px
 
       a
         left: 9px
         width: 40px
-        height: 80px
+        height: 64px
 
       img
         left: 9px
+        bottom: 9px
         width: 21px
         height: 26px
 
+    h1, h2
+      margin-right: 25px  // Make sure the heading isn't behind the bookmark
+
     h1
-      @include adjust-font-size-to(32px, 3/2)
+      @include adjust-font-size-to(35px, 1.75)
 
     h2
-      @include adjust-font-size-to(24px, 3/2)
+      @include adjust-font-size-to(28px, 3/2)
 
     .lead
       @include adjust-font-size-to(20px)
