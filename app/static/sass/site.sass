@@ -143,7 +143,9 @@ header
   left: 50px
   width: $slide-size
 
-  &.sticky
+  // The iPad not dispatching scroll events while we scroll makes the "sticky"
+  // item jump, so we'll just disable it for touch devices.
+  html.no-touch &.sticky
     position: fixed
     top: 50px
 
