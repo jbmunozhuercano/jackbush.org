@@ -16,7 +16,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico" />
 		<link rel="apple-touch-icon" sizes="114x114" href="/static/images/apple-touch-icon.png" />
 
-		<link rel="stylesheet" href="static/sass/site.css" media="screen, projection" type="text/css" />
+		<link rel="stylesheet" href="/static/sass/site.css" media="screen, projection" type="text/css" />
 		<script src="/static/js/Modernizr.js" type="text/javascript"></script>
 		<script src="/static/js/require.js" type="text/javascript"></script>
 		<script src="/static/coffeescript/jackbush/main-conf.js" type="text/javascript"></script>
