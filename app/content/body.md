@@ -1,6 +1,6 @@
 
 If you are in possession of a painting known to be by Jack Bush please [contact
-Dr. Sarah Stanners][1] for more information and download the catalogue raisonné
+Dr. Sarah Stanners][1] for more information. Download the catalogue raisonné
 submission form by clicking [here][2].
 
 
@@ -22,7 +22,7 @@ Contact Us
 Sarah Stanners, Ph.D.  
 Director / Author
 
-Antonia Valdes-Dapena  
+Antonia Valdes-Dapena, M.A.  
 Research Assistant
 
 Elizabeth Went  
