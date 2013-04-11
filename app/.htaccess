@@ -2,3 +2,6 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ http%{ENV:protossl}://%1%{REQUEST_URI} [L,R=301]
+
+# Deny direct access to the inc and content folders
+RewriteRule ^(inc|content)/ - [F,L,NC]
