@@ -1,7 +1,7 @@
 
-If you are in possession of a painting known to be by Jack Bush please [contact
-Dr. Sarah Stanners][1] for more information. Download the catalogue raisonné
-submission form by clicking [here][2].
+For more information regarding inclusion in the catalogue raisonné, please
+[contact Dr. Sarah Stanners][1]. Download the catalogue raisonné submission form
+by clicking [here][2].
 
 
 Jack Bush Project Announcements
@@ -35,6 +35,11 @@ Canada
 416-533-6960  
 
 <contact@jackbush.org>
+
+The artist's youngest son, Terry Bush, represents the Estate of Jack Bush. For
+information regarding the Estate holdings and other matters outside of the
+interests of the catalogue raisonné and retrospective exhibition, please email
+Terry Bush at <bushheritage@hotmail.com>.
 
 
 Donations
