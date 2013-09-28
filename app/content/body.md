@@ -22,10 +22,10 @@ Contact Us
 Sarah Stanners, Ph.D.  
 Director / Author
 
-Antonia Valdes-Dapena, M.A.  
-Research Assistant
+Elizabeth Went, M.A.  
+JBCR Project Coordinator & Lead Research Assistant
 
-Elizabeth Went  
+Antonia Valdes-Dapena, M.A.  
 Research Assistant
 
 P.O. Box 40, Station P  
