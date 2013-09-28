@@ -18,7 +18,7 @@ Then install the Ruby dependencies by running the following command:
 
 You can then build the site by running:
 
-    cake build
+    grunt build
 
 
 Development
@@ -27,6 +27,7 @@ Development
 After installing the node and Ruby dependencies, you can develop by running the
 following command:
 
-    cake runserver
+    grunt dev
 
-The site will then be accessible at <http://localhost:5000/>.
+The site will then be accessible at <http://localhost:8000/>. CoffeeScript and
+SASS files will be automatically recompiled as you make changes.
