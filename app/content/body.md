@@ -11,7 +11,7 @@ All 5 of Jack Bush’s “Man + Woman” series watercolour paintings from 1955 
 now been found and documented for the catalogue raisonné!
 
 A major Jack Bush retrospective exhibition is now scheduled to open at the
-National Gallery of Canada in Ottawa from 31 October 2014 to 15 January 2015.
+National Gallery of Canada in Ottawa from 14 November 2014 to 22 February 2015.
 The exhibition will be co-curated by the Gallery’s director, Marc Mayer, and Dr.
 Sarah Stanners, author of the forthcoming Jack Bush Catalogue Raisonné.
 
