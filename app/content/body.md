@@ -25,7 +25,7 @@ Director / Author
 Elizabeth Went, M.A.  
 JBCR Project Coordinator & Lead Research Assistant
 
-Antonia Valdes-Dapena, M.A.  
+Antonia Dapena-Tretter, M.A.  
 Research Assistant
 
 P.O. Box 40, Station P  
