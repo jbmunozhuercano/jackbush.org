@@ -48,6 +48,9 @@
 				</header>
 
 				<div class="content-body">
+					<div class="alert">
+						We are still accepting submissions!
+					</div>
 					<?= Markdown(file_get_contents('content/body.md')); ?>
 				</div>
 			</div>
