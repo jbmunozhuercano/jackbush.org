@@ -1,55 +1,48 @@
-
 For more information regarding inclusion in the catalogue raisonné, please
-[contact Dr. Sarah Stanners][1]. Download the catalogue raisonné submission form
+contact [Dr. Sarah Stanners][1]. Download the catalogue raisonné submission form
 by clicking [here][2].
-
 
 Jack Bush Project Announcements
 -------------------------------
 
-All 5 of Jack Bush’s “Man + Woman” series watercolour paintings from 1955 have
-now been found and documented for the catalogue raisonné!
+The catalogue raisonné will be published in full hardback as a set of four
+volumes, forthcoming in 2020. If you would like to be on our mailing list for
+updates about the project, please send your mailing and email addresses to
+<contact@jackbush.org>. If you have already had your painting documented your
+contact information is already on file.
 
-A major Jack Bush retrospective exhibition is now scheduled to open at the
-National Gallery of Canada in Ottawa from 13 November 2014 to 22 February 2015.
-The exhibition will be co-curated by the Gallery’s director, Marc Mayer, and Dr.
-Sarah Stanners, author of the forthcoming Jack Bush Catalogue Raisonné.
-
-
-Contact Us
-----------
+Contact
+-------
 
 Sarah Stanners, Ph.D.  
-Director / Author
+Director, Jack Bush Catalogue Raisonné  
+Assistant Professor, Status Only Appointment,  
+Department of History of Art, University of Toronto  
+Email:  <stanners@jackbush.org>
 
-Elizabeth Went, M.A.  
-JBCR Project Coordinator & Lead Research Assistant
+### Mail
 
-Antonia Dapena-Tretter, M.A.  
-Research Assistant
+The Jack Bush Catalogue Raisonné Project  
+Attn: Dr. Sarah Stanners  
+c/o Department of History of Art / Graduate Department of Art  
+University of Toronto  
+Sidney Smith Hall, Room 6036  
+100 St. George Street  
+Toronto ON,  M5S 3G3, Canada
 
-P.O. Box 40, Station P  
-Toronto, ON  
-M5S 2S6  
-Canada  
-416-533-6960  
-
-<contact@jackbush.org>
-
-The artist's youngest son, Terry Bush, represents the Estate of Jack Bush. For
+The artist's youngest son Terry Bush represents the Estate of Jack Bush. For
 information regarding the Estate holdings and other matters outside of the
-interests of the catalogue raisonné and retrospective exhibition, please email
-Terry Bush at <bushheritage@hotmail.com>.
-
+interests of the catalogue raisonné, please email Terry Bush at
+<bushheritage@hotmail.com>.
 
 Donations
 ---------
 
 The Jack Bush Catalogue Raisonné is a not-for-profit scholarly project, which is
 currently accepting donations via its institutional affiliate, the University of
-Toronto, Department of Art.  Download a pledge form by clicking [here][3].
-
-
+Toronto, Department of Art. Download a pledge form by clicking [here][3].
+Charitable tax receipts for both Canadian and US citizens can be issued by the
+University of Toronto.
 
 
 [1]: mailto:stanners@jackbush.org

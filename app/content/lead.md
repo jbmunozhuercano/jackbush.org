@@ -1,4 +1,5 @@
-Work has now begun on the compilation of a comprehensive record of paintings
-produced by the Canadian artist Jack Bush (1909 – 1977).  With the support of
-the Estate of Jack Bush, the catalogue raisonné will document no fewer than
-1,600 works of art in full colour.
+The compilation of a comprehensive record of paintings produced by the Canadian
+artist Jack Bush (1909 – 1977) is currently in process and made possible by the
+Estate of the artist. The catalogue raisonné will thoroughly document more than
+1,600 paintings, including full information on provenance, exhibitions,
+bibliography, excerpts from the artist's own diary, and so much more.
