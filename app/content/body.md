@@ -6,7 +6,7 @@ Jack Bush Project Announcements
 -------------------------------
 
 The catalogue raisonné will be published in full hardback as a set of four
-volumes, forthcoming in 2020. If you would like to be on our mailing list for
+volumes, forthcoming in 2021. If you would like to be on our mailing list for
 updates about the project, please send your mailing and email addresses to
 <contact@jackbush.org>. If you have already had your painting documented your
 contact information is already on file.
@@ -16,8 +16,8 @@ Contact
 
 Sarah Stanners, Ph.D.  
 Director, Jack Bush Catalogue Raisonné  
-Assistant Professor, Status Only Appointment,  
-Department of History of Art, University of Toronto  
+Adjunct Professor  
+Department of Art History, University of Toronto  
 Email:  <stanners@jackbush.org>
 
 ### Mail

@@ -49,7 +49,7 @@
 
 				<div class="content-body">
 					<div class="alert">
-						We are still accepting submissions!
+						Last call for submissions! Deadline is 31 December 2020.
 					</div>
 					<?= Markdown(file_get_contents('content/body.md')); ?>
 				</div>
