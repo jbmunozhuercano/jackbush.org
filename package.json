@@ -36,7 +36,7 @@
       "jquery": "github:jquery/jquery/1.9.1",
       "Modernizr": "github:Modernizr/Modernizr/v2.6.2",
       "require": "github:jrburke/requirejs/2.1.5",
-      "jquery.scrollTo": "github:flesler/jquery.scrollTo/1f80d6bf71cd376d2199beb9a0ecbbf77174cb81#jquery.scrollTo.js"
+      "jquery.scrollTo": "github:flesler/jquery.scrollTo/9785f37301f7b770d977898b976c7b61006e81e9#jquery.scrollTo.js"
     }
   }
 }
