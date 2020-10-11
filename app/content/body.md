@@ -24,7 +24,7 @@ Email:  <stanners@jackbush.org>
 
 The Jack Bush Catalogue Raisonné Project  
 Attn: Dr. Sarah Stanners  
-c/o Department of History of Art / Graduate Department of Art  
+c/o Department of Art History / Graduate Department of Art  
 University of Toronto  
 Sidney Smith Hall, Room 6036  
 100 St. George Street  
