@@ -20,16 +20,6 @@ Adjunct Professor
 Department of Art History, University of Toronto  
 Email:  <stanners@jackbush.org>
 
-### Mail
-
-The Jack Bush Catalogue Raisonné Project  
-Attn: Dr. Sarah Stanners  
-c/o Department of Art History / Graduate Department of Art  
-University of Toronto  
-Sidney Smith Hall, Room 6036  
-100 St. George Street  
-Toronto ON,  M5S 3G3, Canada
-
 The artist's youngest son Terry Bush represents the Estate of Jack Bush. For
 information regarding the Estate holdings and other matters outside of the
 interests of the catalogue raisonné, please email Terry Bush at
